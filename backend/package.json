@@ -4,7 +4,7 @@
   "description": "Building the API using the Node and Express",
   "main": "index.js",
   "scripts": {
-    "build": "nodemon index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/kumar97arun/Api-built#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "joi": "^13.1.0"
+    "joi": "^13.1.0",
+    "nodemon": "^2.0.7"
   }
 }
