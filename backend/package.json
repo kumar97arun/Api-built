@@ -1,0 +1,25 @@
+{
+  "name": "Api-built",
+  "version": "1.0.0",
+  "description": "Building the API using the Node and Express",
+  "main": "index.js",
+  "scripts": {
+    "build": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumar97arun/Api-built.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumar97arun/Api-built/issues"
+  },
+  "homepage": "https://github.com/kumar97arun/Api-built#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^13.1.0"
+  }
+}
