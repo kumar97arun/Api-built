@@ -38,7 +38,7 @@ app.post('/api/customers',(req,res) => {
     name : req.body.name //For working of this we need enable the parsing of JSON objects
   }
   customers.push(customer);
-  res.send(customers);
+  res.send(customer);
 });
 
 // DELETE Method
