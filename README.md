@@ -10,5 +10,5 @@ Building the API using the Node and Express
   ```
 4. Now run
   ```
-  nodemon index.js
+  npm run dev
   ```
