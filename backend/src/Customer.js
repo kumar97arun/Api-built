@@ -56,4 +56,10 @@ var customers = [
     customers = customers.filter(item => item !== customer);
     res.send(customer);
   });
+
+// Keep these at last of the code as they can take any routes
+// Handling unspecified Routes Using the Middleware
+  app.use((req,res) => {
+    res.status(404).send('ROUTE NOT FOUND');
+  });
 }
