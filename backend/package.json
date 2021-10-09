@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/kumar97arun/Api-built#readme",
   "dependencies": {
+    "chai": "^4.3.4",
     "express": "^4.17.1",
     "joi": "^13.1.0",
+    "mocha": "^9.1.2",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7"
   }
