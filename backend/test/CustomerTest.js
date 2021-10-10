@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const apps = require('../src/Customer');
+const apps = require('../src/Practice');
 const request = require('request');
 
 describe('Customer', function(){
