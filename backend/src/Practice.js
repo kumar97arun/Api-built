@@ -4,6 +4,13 @@ var customers = [
   {id : 2, name : "Kumar"}
 ]
 
-module.exports = function(getCustomers) {
-  return JSON.stringify(customers);
+module.exports = {
+    get : function() {
+        return JSON.stringify(customers);},
+    
+    post : function(data) {
+        customers.push(data);
+        return JSON.stringify(customers);
+    }
+    
 }
