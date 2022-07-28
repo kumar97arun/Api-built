@@ -4,7 +4,7 @@
   "description": "Building the API using the Node and Express",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon main.js",
+    "start": "node main.js",
     "test": "mocha"
   },
   "repository": {
